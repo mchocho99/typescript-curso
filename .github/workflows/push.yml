@@ -16,6 +16,8 @@ jobs:
 
       - name: Install dependencies
         run: npm install
+        working-directory: claude/todo-cli
 
       - name: Build
         run: npx tsc
+        working-directory: claude/todo-cli
